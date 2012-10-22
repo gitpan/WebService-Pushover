@@ -10,7 +10,7 @@ build_requires:
 configure_requires:
   Module::Build: 0.38
 dynamic_config: 1
-generated_by: 'Module::Build version 0.38, CPAN::Meta::Converter version 2.120900'
+generated_by: 'Module::Build version 0.4003, CPAN::Meta::Converter version 2.120921'
 license: perl
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
@@ -19,7 +19,7 @@ name: WebService-Pushover
 provides:
   WebService::Pushover:
     file: lib/WebService/Pushover.pm
-    version: v0.0.5
+    version: v0.0.6
 requires:
   DateTime: 0
   DateTime::Format::Strptime: 0
@@ -33,4 +33,4 @@ resources:
   homepage: https://github.com/hakamadare/webservice-pushover
   license: http://dev.perl.org/licenses/
   repository: git://github.com/hakamadare/webservice-pushover.git
-version: v0.0.5
+version: v0.0.6
