@@ -42,7 +42,7 @@
    "provides" : {
       "WebService::Pushover" : {
          "file" : "lib/WebService/Pushover.pm",
-         "version" : "v0.0.6"
+         "version" : "v0.0.7"
       }
    },
    "release_status" : "stable",
@@ -58,5 +58,5 @@
          "url" : "git://github.com/hakamadare/webservice-pushover.git"
       }
    },
-   "version" : "v0.0.6"
+   "version" : "v0.0.7"
 }
