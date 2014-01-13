@@ -11,5 +11,6 @@ t/00.load.t
 t/01.new.t
 t/02.methods.t
 t/02.methods_deprecated.t
+t/03.spore.t
 t/pod-coverage.t
 t/pod.t

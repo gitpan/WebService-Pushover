@@ -4,7 +4,7 @@
       "Steve Huff <shuff@cpan.org>"
    ],
    "dynamic_config" : 1,
-   "generated_by" : "Module::Build version 0.4003, CPAN::Meta::Converter version 2.120921",
+   "generated_by" : "Module::Build version 0.4203",
    "license" : [
       "perl_5"
    ],
@@ -46,7 +46,7 @@
    "provides" : {
       "WebService::Pushover" : {
          "file" : "lib/WebService/Pushover.pm",
-         "version" : "v0.1.2"
+         "version" : "v0.2.0"
       }
    },
    "release_status" : "stable",
@@ -62,5 +62,5 @@
          "url" : "git://github.com/hakamadare/webservice-pushover.git"
       }
    },
-   "version" : "v0.1.2"
+   "version" : "v0.2.0"
 }

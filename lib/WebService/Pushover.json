@@ -2,7 +2,7 @@
    "name" : "Pushover",
    "authority" : "GITHUB:hakamadare",
    "version" : "1.0",
-   "base_url" : "http://api.pushover.net/1",
+   "base_url" : "https://api.pushover.net/1",
    "formats" : [
       "json",
       "xml"
@@ -68,6 +68,22 @@
          "path" : "/receipts/:receipt.:format",
          "required_params" : [
             "receipt",
+            "token"
+         ]
+      },
+      "sounds" : {
+         "base_url": "https://api.pushover.net/1",
+         "formats" : [
+             "json"
+         ],
+         "expected_status" : [
+            "200",
+            "400",
+            "404"
+         ],
+         "method" : "GET",
+         "path" : "/sounds.:format",
+         "required_params" : [
             "token"
          ]
       }
